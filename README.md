@@ -2,8 +2,9 @@
 Momentum: Vanilla JS Google Chrome Application
 
 Features:
-* Greetings: enter your name to customize
 * Background wallpapers (https://unsplash.com)
+* Personalized greetings
+* Clock
 * To-do list
 * Weather
-* Clock
+* Quotes 
