@@ -1,0 +1,121 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: Lato, Roboto, Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.background_img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.container {
+    text-align: center;
+}
+
+.text-box { 
+    background-color: rgb(177, 177, 177);
+    opacity: 0.8;
+    border: 2px solid silver;
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+}
+#login-form {
+    margin-top: 10%;
+    opacity: 1;
+}
+
+#login-form input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#login-form input[type=submit] {
+    padding: 12px 20px;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#todo-form input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+h1#greeting {
+    font-size: 42px;
+    font-weight: 400;
+    font-family: Montserrat;
+    opacity: 1;
+}
+
+h2#clock { 
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Montserrat;
+    opacity: 1;
+}
+
+#weather {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+
+#todo-list {
+    font-size: 20px;
+    opacity: 1;
+}
+
+ul#todo-list {
+    list-style-type: none;
+}
+
+#quote {
+    margin: 10px;
+    opacity: 1;
+}
+
+.quote {
+    font-size: 20px;
+}
+
+.author {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.author::before {
+    content: "\a";
+    white-space: pre;
+}
